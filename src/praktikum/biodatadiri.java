@@ -14,20 +14,21 @@ public class biodatadiri {
     public static void main(String[] args) {
         Scanner masukan = new Scanner (System.in);
         String nama, nis, tmp, tgl, jns, alamat, motto;
+        System.out.println();
         System.out.print("nama :");
-        System.out.println();
+        nama = masukan.nextLine();
         System.out.print("nis :");
-        System.out.println();
+        nis = masukan.nextLine();
         System.out.print("tempat lahir :");
-        System.out.println();
+       tmp = masukan.nextLine();
        System.out.print("tanggal lahir :");
-       System.out.println();
+       tgl = masukan.nextLine();
        System.out.print("jenis kelamin :");
-       System.out.println();
+      jns = masukan.nextLine();
        System.out.print("alamat di malang :");
-       System.out.println();
+      alamat = masukan.nextLine();
        System.out.print("motto hidup :");
-       System.out.println();
+      motto = masukan.nextLine();
     }
     
 }
